@@ -51,7 +51,7 @@
 img{
     object-fit: cover;
     height:80%;
-    width:100%;
+    width:75%;
 }
 
 #product-img{
@@ -78,4 +78,11 @@ img{
 #cta-2{
     color:black;
     font-size:21pt;
+    font-weight:bold;
+}
+
+#product-use{
+    object-fit: cover;
+    height:60vh;
+    width:75%;
 }
