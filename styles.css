@@ -1,0 +1,63 @@
+@keyframes hero-text-move{
+    0%{
+        /* position:relative; */
+        top:25%;
+        opacity:0;
+    }
+    90%{
+        opacity:1
+    }
+    95%{
+        opacity:0;
+    }
+    100%{
+        /* position:relative; */
+        top:0%;
+    }
+}
+
+#hero-text-container{
+    overflow: hidden;
+    position:absolute;
+    top:50vh;
+    left:50vw;
+}
+
+#hero-text{
+    position:relative;
+    opacity:0%;
+    animation-name:hero-text-move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+#hero-bg{
+    background-image: url(images/product-hero.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height:100vh;
+    background-repeat: none;
+}
+
+.navbar a {
+    color:white;
+}
+
+.navlink.active {
+    color:white;
+}
+
+img{
+    object-fit: cover;
+    height:80%;
+    width:100%;
+}
+
+#product-img{
+    height:60vh;
+    background-image: url(images/product-use.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
