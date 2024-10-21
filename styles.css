@@ -61,3 +61,21 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#contact-us{
+    background-color: #A0A0A0;
+}
+
+#footer{
+    background-color: black;
+}
+
+.list-group-item{
+    color:white;
+    background-color: black;
+}
+
+#cta-2{
+    color:black;
+    font-size:21pt;
+}
