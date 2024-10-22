@@ -39,7 +39,31 @@
         </nav>
         <div class="row">
             <div class="col">
-                <div class="card" style="width: 18rem; height:90vh; position:fixed;">
+                <div class="card d-none d-md-block" style="width: 12rem; height:90vh; position:fixed;">
+                    <div class="card-body">
+                        <h5 class="card-title">Products</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="serum" id="serum" checked>
+                            <label class="form-check-label" for="serum">
+                                Serum
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="moisturiser" id="moisturiser"
+                                checked>
+                            <label class="form-check-label" for="moisturiser">
+                                Moisturiser
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="sunblock" id="sunblock" checked>
+                            <label class="form-check-label" for="sunblock">
+                                Sunblock
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-md-none" style="width: 90vw; height:15vh;">
                     <div class="card-body">
                         <h5 class="card-title">Products</h5>
                         <div class="form-check">
@@ -64,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-9">
+            <div class="col-auto col-sm-10 pt-4 pt-md-0 pb-5">
                 <div id="product-area" class="row row-cols-1 row-cols-md-3 g-4">
                 </div>
             </div>
