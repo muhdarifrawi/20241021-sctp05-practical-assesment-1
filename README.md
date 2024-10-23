@@ -1,3 +1,7 @@
+## Deployed site
+Site deployed using Github Pages
+Link: https://muhdarifrawi.github.io/20241021-sctp05-practical-assesment-1/
+
 ## Thanks and Acknowledgemnts
 Photo by Polina Kovaleva: https://www.pexels.com/photo/close-up-photo-of-serum-bottles-8101511/
 
