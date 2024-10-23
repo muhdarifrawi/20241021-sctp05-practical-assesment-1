@@ -13,21 +13,22 @@ heroTextChanger = async () => {
 
     console.log("hero change running");
     let textArr = [
-        "Hey there",
-        "You there",
-        "Yes you",
-        "Come take this"
+        "Unleash Your Natural Radiance",
+        "Where Science Meets Glow",
+        "Beyond the Ordinary",
+        "Tailored for Your Skin, Powered by Nature",
+        "Experience the Glow of True Transformation",
     ]
 
     let heroText = document.querySelector("#hero-text");
 
     let count = 0;
 
-    while (count < 4) {
+    while (count < 5) {
         heroText.innerText = textArr[count];
         // console.log(textArr[count]);
         await pause(3000);
-        if (count == 3) {
+        if (count == 4) {
             count = 0;
         }
         else {
