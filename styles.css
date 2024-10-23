@@ -27,8 +27,9 @@
 #hero-text-container {
     overflow: hidden;
     position: absolute;
-    top: 45vh;
+    top: 48vh;
     left: 45vw;
+    height:180px;
 }
 
 #hero-text {
