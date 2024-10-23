@@ -25,7 +25,7 @@ heroTextChanger = async () => {
 
     while (count < 4) {
         heroText.innerText = textArr[count];
-        console.log(textArr[count]);
+        // console.log(textArr[count]);
         await pause(3000);
         if (count == 3) {
             count = 0;
@@ -71,7 +71,7 @@ reviewChanger = async () => {
         reviewText.innerText = reviewArr[count];
         reviewer.innerText = reviewerArr[count];
         reviewerLoc.innerText = reviewerLocArr[count];
-        console.log(reviewArr[count]);
+        // console.log(reviewArr[count]);
         await pause(3000);
         if (count == 3) {
             count = 0;
