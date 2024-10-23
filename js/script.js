@@ -41,10 +41,10 @@ reviewChanger = async () => {
 
     console.log("hero change running");
     let reviewArr = [
-        `"I've tried so many products, but Glow Essence is truly one of a kind! My skin has never felt this soft and radiant. It's the only skincare line that’s actually worked for me, and I’m hooked!"`,
-        `"The Glow Essence serum is a game-changer! My skin feels so smooth and hydrated. I’ve received compliments on my glow, and I love that it doesn’t feel greasy at all. Only reason it’s not 5 stars is the shipping time, but worth the wait!"`,
-        `"Finally, a product that does what it says! Glow Essence has transformed my skin in just weeks. It's no exaggeration to say this is the best skincare product I’ve ever used. Highly recommend!"`,
-        `"I’ve struggled with dry skin for years, but Glow Essence has been a lifesaver. It’s lightweight but deeply nourishing, and the results are immediate. My skin is glowing like never before. I’ll never go back to anything else!"`
+        `"I've tried so many products, but Abino Glow Essence is truly one of a kind! My skin has never felt this soft and radiant. It's the only skincare line that’s actually worked for me, and I’m hooked!"`,
+        `"Abino Glow Essence serum is a game-changer! My skin feels so smooth and hydrated. I’ve received compliments on my glow, and I love that it doesn’t feel greasy at all. Only reason it’s not 5 stars is the shipping time, but worth the wait!"`,
+        `"Finally, a product that does what it says! Abino Glow Essence has transformed my skin in just weeks. It's no exaggeration to say this is the best skincare product I’ve ever used. Highly recommend!"`,
+        `"I’ve struggled with dry skin for years, but Abino Glow Essence has been a lifesaver. It’s lightweight but deeply nourishing, and the results are immediate. My skin is glowing like never before. I’ll never go back to anything else!"`
     ]
 
     let reviewerArr = [
